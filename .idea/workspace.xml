@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="java-web-learning:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1b9440d-c93c-46c5-990c-c02e2d93993d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../03-servlet/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ResponseDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ResponseDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ResponseDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ResponseDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ServletContextDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ServletContextDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ServletContextDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ServletContextDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/VerifyCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/resources/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/webapp/WEB-INF/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/webapp/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/webapp/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/webapp/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-servlet/target/classes/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REAM.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/.idea/artifacts/03_servlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/.idea/artifacts/03_servlet_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/03-servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/03-servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/servlet/ReqServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ReqServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/servlet/ServletDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/yj/ServletDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/classes/com/soft2176/servlet/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/soft2176/servlet/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../tools/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25dvbDYBrQNbdWADazpsjcpXpAD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3770115" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="01-servlet:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="abd3e181-5a9c-41f8-8a71-e7495aa4e8db" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49826" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1b9440d-c93c-46c5-990c-c02e2d93993d" name="Changes" comment="" />
+      <created>1645869857055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645869857055</updated>
+      <workItem from="1645869858267" duration="899000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
