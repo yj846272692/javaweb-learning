@@ -13,6 +13,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="03-response" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />

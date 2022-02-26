@@ -17,7 +17,7 @@
     <bytecodeTargetLevel>
       <module name="01-servlet" target="1.8" />
       <module name="02-request" target="1.8" />
-      <module name="03-response" target="1.8" />
+      <module name="03-response" target="10" />
       <module name="book-online" target="1.8" />
       <module name="java-web-learning" target="1.8" />
     </bytecodeTargetLevel>

@@ -19,4 +19,19 @@
 ### RequestDemo9:Request对象：forward转发
 ### RequestDemo10:Request对象：ServletContext
 
-
+## 03-response模块
+### download包
+#### DownloadServlet：文件下载
+### servlet包
+#### CheckCodeServlet：验证码
+#### ResponseDemo1：重定向
+#### ResponseDemo2：重定向资源
+#### ResponseDemo3：转发
+#### ResponseDemo4：响应字符集设置
+#### ResponseDemo5：乱码处理方法
+### servletContext包
+#### ServletContextDemo1：获取 ServletContext对象
+#### ServletContextDemo2：获取MIME类型
+#### ServletContextDemo3：域对象：共享数据
+#### ServletContextDemo4：域对象：共享数据
+#### ServletContextDemo5：获取文件的真实(服务器)路径

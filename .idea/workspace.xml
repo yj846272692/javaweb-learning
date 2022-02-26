@@ -9,7 +9,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1b9440d-c93c-46c5-990c-c02e2d93993d" name="Changes" comment="">
+    <list default="true" id="a1b9440d-c93c-46c5-990c-c02e2d93993d" name="Changes" comment="02-request模块">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/01_servlet_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/02_request_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/03_response_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/download/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ServletDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/utils/DownLoadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/html/location2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/img/1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/img/男孩.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/03_response_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/03_response_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/03-response.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/03-response.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/src/main/java/com/soft2176/yj/response/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,16 +97,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-servlet/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/03-response/src/main/webapp/html" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\21级校企合作\Work\java-web-learning\03-response\src\main\webapp\html" />
+      <recent name="D:\21级校企合作\Work\java-web-learning\03-response\src\main\webapp\img" />
+      <recent name="D:\21级校企合作\Work\java-web-learning\03-response\src\main\webapp" />
       <recent name="D:\21级校企合作\Work\java-web-learning\01-servlet\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yj.response.servletcontext" />
     </key>
   </component>
   <component name="RunManager">
@@ -171,8 +211,16 @@
       <option name="presentableId" value="Default" />
       <updated>1645869857055</updated>
       <workItem from="1645869858267" duration="2227000" />
-      <workItem from="1645877985150" duration="3159000" />
+      <workItem from="1645877985150" duration="5101000" />
     </task>
+    <task id="LOCAL-00001" summary="02-request模块">
+      <created>1645881179996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645881179996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,5 +242,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="02-request模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="02-request模块" />
   </component>
 </project>
