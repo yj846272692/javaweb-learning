@@ -10,27 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b9440d-c93c-46c5-990c-c02e2d93993d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-servlet/src/main/java/com/yj/servlet/ServletDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-servlet/src/main/java/com/yj/servlet/ServletDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-servlet/src/main/java/com/yj/servlet/ServletDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-servlet/src/main/java/com/yj/servlet/ServletDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-servlet/src/main/webapp/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-servlet/src/main/webapp/tomcat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/book-online.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/java/com/yj/request/RequestDemo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/webapp/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-request/src/main/webapp/regist2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-servlet/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/01-servlet/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-request/src/main/java/com/soft2176/yj/request/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-web-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-web-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/classes/com/yj/servlet/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/classes/com/yj/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/classes/com/yj/servlet/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/classes/com/yj/servlet/ServletDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/classes/com/yj/servlet/ServletDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/yj/servlet/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/yj/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/yj/servlet/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/yj/servlet/ServletDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/yj/servlet/ServletDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-servlet/target/servlet-1.0-SNAPSHOT/tomcat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/src/main/java/com.yj.request/RequestDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/02-request/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +110,7 @@
       <deployment>
         <artifact name="02-request:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/day02" />
           </settings>
         </artifact>
       </deployment>
@@ -191,7 +200,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645869857055</updated>
       <workItem from="1645869858267" duration="2227000" />
-      <workItem from="1645877985150" duration="1290000" />
+      <workItem from="1645877985150" duration="2521000" />
     </task>
     <servers />
   </component>
