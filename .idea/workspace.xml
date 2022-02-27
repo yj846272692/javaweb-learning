@@ -10,41 +10,161 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b9440d-c93c-46c5-990c-c02e2d93993d" name="Changes" comment="02-request模块">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/01_servlet_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/02_request_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/03_response_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/download/DownloadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ResponseDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servlet/ServletDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/servletcontext/ServletContextDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/java/com/yj/response/utils/DownLoadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/html/location2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/img/1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/img/男孩.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/location.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-response/src/main/webapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/03_response_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/03_response_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-response/03-response.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/03-response.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-response/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-response/src/main/java/com/soft2176/yj/response/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/classes/com/yj/request/RequestDemo9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/classes/com/yj/request/RequestDemo9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/regist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-request/target/request-1.0-SNAPSHOT/regist2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/03-response/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/download/DownloadServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servlet/CheckCodeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servlet/ResponseDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servlet/ResponseDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servlet/ResponseDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servlet/ResponseDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servlet/ResponseDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servletcontext/ServletContextDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servletcontext/ServletContextDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servletcontext/ServletContextDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servletcontext/ServletContextDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/servletcontext/ServletContextDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/classes/com/yj/response/utils/DownLoadUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/download/DownloadServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servlet/CheckCodeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servlet/ResponseDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servlet/ResponseDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servlet/ResponseDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servlet/ResponseDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servlet/ResponseDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servletcontext/ServletContextDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servletcontext/ServletContextDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servletcontext/ServletContextDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servletcontext/ServletContextDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/servletcontext/ServletContextDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/classes/com/yj/response/utils/DownLoadUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/html/location2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/img/1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/img/男孩.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-response/target/response-1.0-SNAPSHOT/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/256.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/listener/ContextLoaderListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/servlet/BookDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/servlet/IndexServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/servlet/LoginPageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/servlet/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bo/servlet/UserPageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/tag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/user1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/user2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/user3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/book_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/256.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/tag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/user1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/user2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/images/user3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/256.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/listener/ContextLoaderListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/servlet/BookDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/servlet/IndexServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/servlet/LoginPageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/servlet/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bo/servlet/UserPageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/tag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/user1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/user2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/user3.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,15 +217,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/03-response/src/main/webapp/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\21级校企合作\Work\java-web-learning" />
       <recent name="D:\21级校企合作\Work\java-web-learning\03-response\src\main\webapp\html" />
       <recent name="D:\21级校企合作\Work\java-web-learning\03-response\src\main\webapp\img" />
       <recent name="D:\21级校企合作\Work\java-web-learning\03-response\src\main\webapp" />
@@ -119,9 +243,9 @@
     <configuration name="Tomcat 10.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.16" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="02-request:war exploded">
+        <artifact name="03-response:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/day02" />
+            <option name="CONTEXT_PATH" value="/03_response_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -135,6 +259,9 @@
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="49826" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="58170" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -152,6 +279,36 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -211,7 +368,10 @@
       <option name="presentableId" value="Default" />
       <updated>1645869857055</updated>
       <workItem from="1645869858267" duration="2227000" />
-      <workItem from="1645877985150" duration="5101000" />
+      <workItem from="1645877985150" duration="5674000" />
+      <workItem from="1645884159127" duration="163000" />
+      <workItem from="1645886856881" duration="498000" />
+      <workItem from="1645960211525" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="02-request模块">
       <created>1645881179996</created>
