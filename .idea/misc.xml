@@ -11,10 +11,12 @@
         <option value="$PROJECT_DIR$/02-request/pom.xml" />
         <option value="$PROJECT_DIR$/03-response/pom.xml" />
         <option value="$PROJECT_DIR$/book-online/pom.xml" />
+        <option value="$PROJECT_DIR$/04-cookie-session/pom.xml" />
+        <option value="$PROJECT_DIR$/comprehensive-exercise/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
