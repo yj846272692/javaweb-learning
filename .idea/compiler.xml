@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="02-request" />
+        <module name="quickstart" />
         <module name="java-web-learning" />
         <module name="04-cookie-session" />
         <module name="book-online" />
         <module name="03-response" />
+        <module name="05-ajax" />
         <module name="comprehensive-exercise" />
         <module name="01-servlet" />
       </profile>
@@ -19,11 +21,13 @@
     <bytecodeTargetLevel target="17">
       <module name="01-servlet" target="1.8" />
       <module name="02-request" target="1.8" />
-      <module name="03-response" target="1.8" />
+      <module name="03-response" target="10" />
       <module name="04-cookie-session" target="10" />
+      <module name="05-ajax" target="1.8" />
       <module name="book-online" target="1.8" />
       <module name="comprehensive-exercise" target="1.8" />
       <module name="java-web-learning" target="1.8" />
+      <module name="quickstart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

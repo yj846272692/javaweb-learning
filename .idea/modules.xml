@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/02-request/02-request.iml" filepath="$PROJECT_DIR$/02-request/02-request.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-response/03-response.iml" filepath="$PROJECT_DIR$/03-response/03-response.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-cookie-session/04-cookie-session.iml" filepath="$PROJECT_DIR$/04-cookie-session/04-cookie-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-ajax/05-ajax.iml" filepath="$PROJECT_DIR$/05-ajax/05-ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-online/book-online.iml" filepath="$PROJECT_DIR$/book-online/book-online.iml" />
       <module fileurl="file://$PROJECT_DIR$/comprehensive-exercise/comprehensive-exercise.iml" filepath="$PROJECT_DIR$/comprehensive-exercise/comprehensive-exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-web-learning.iml" filepath="$PROJECT_DIR$/java-web-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
     </modules>
   </component>
 </project>

@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Register</title>
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
-    </head>
-    <body class="">
-        <div id="layoutAuthentication">
-            <div id="layoutAuthentication_content">
-                <main>
-                    <div class="container">
-                        <div class="row justify-content-center" >
-                            <div class="col-lg-5">
-                                <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">注册账号</h3></div>
-                                    <div class="card-body">
-                                        <form action="/register" method="post">
-                                            <div class="row mb-3">
-                                                <div class="col-md-12">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputFirstName" type="text" placeholder="Username" name="username"/>
-                                                        <label for="inputFirstName">Username</label>
-                                                    </div>
-                                                </div>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Register</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+            crossorigin="anonymous"></script>
+</head>
+<body class="">
+<div id="layoutAuthentication">
+    <div id="layoutAuthentication_content">
+        <main>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="card shadow-lg border-0 rounded-lg mt-5">
+                            <div class="card-header"><h3 class="text-center font-weight-light my-4">注册账号</h3></div>
+                            <div class="card-body">
+                                <form action="/register" method="post">
+                                    <div class="row mb-3">
+                                        <div class="col-md-12">
+                                            <div class="form-floating mb-3 mb-md-0">
+                                                <input class="form-control" id="username" type="text"
+                                                       placeholder="Username" name="username"/>
+                                                <label id="username_id" for="username_id">Username</label>
                                             </div>
+                                        </div>
+                                    </div>
 
-                                            <div class="row mb-3">
-                                                <div class="col-md-8">
-                                                   <div class="mb-3">
-                                                       <div class="form-floating mb-3 mb-md-0">
-                                                           <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" name="password"/>
-                                                           <label for="inputPassword">Password</label>
-                                                       </div>
-                                                   </div>
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputPasswordConfirm" type="text" placeholder="Code" name="inputCode"/>
-                                                        <label >Code</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mt-4">
-                                                    <a href="#" id="changeImg">看不清？</a>
-                                                    <img alt= "看不清楚?点击更换验证码 " src= "/check"   width= "150"   height= "75" id="imgRandom" οnclick="changeImage()"/>
+                                    <div class="row mb-3">
+                                        <div class="col-md-8">
+                                            <div class="mb-3">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" id="inputPassword" type="password"
+                                                           placeholder="Create a password" name="password"/>
+                                                    <label for="inputPassword">Password</label>
                                                 </div>
                                             </div>
-                                            <div class="mt-4 mb-0">
-                                                <div class="d-grid"><input type="submit" class="btn btn-primary btn-block" value="创建账号"/></div>
+                                            <div class="form-floating mb-3 mb-md-0">
+                                                <input class="form-control" id="inputPasswordConfirm" type="text"
+                                                       placeholder="Code" name="inputCode"/>
+                                                <label>Code</label>
                                             </div>
-                                        </form>
+                                        </div>
+                                        <div class="col-md-4 mt-4">
+                                            <a href="#" id="changeImg">看不清？</a>
+                                            <img alt="看不清楚?点击更换验证码 " src="/check" width="150" height="75" id="imgRandom"
+                                                 οnclick="changeImage()"/>
+                                        </div>
                                     </div>
-                                    <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="login.html">已有账号?去登录>></a></div>
+                                    <div class="mt-4 mb-0">
+                                        <div class="d-grid"><input type="submit" class="btn btn-primary btn-block"
+                                                                   value="创建账号"/></div>
                                     </div>
-                                </div>
+                                </form>
+                            </div>
+                            <div class="card-footer text-center py-3">
+                                <div class="small"><a href="login.html">已有账号?去登录>></a></div>
                             </div>
                         </div>
                     </div>
-                </main>
+                </div>
             </div>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+<script>
+    // document.getElementById("username").onblur = function () {
+    //     const username = this.value
+    //     let xHttp;
+    //     if (window.XMLHttpRequest) {
+    //         xHttp = new XMLHttpRequest();
+    //     } else {
+    //         //处理 IE6及以下
+    //         xHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    //     }
+    //
+    //     //发送请求
+    //     xHttp.open("GET", "http://localhost/checkU?username=" + username)
+    //     xHttp.send();//获取响应
+    //
+    //     xHttp.onreadystatechange = function () {
+    //         if (this.readyState === 4 && this.status === 200) {
+    //             // alert(this.responseText);
+    //             if (this.responseText === "false") {
+    //                 document.getElementById("username_id").innerText = "用户名已存在"
+    //                 document.getElementById("username_id").style.color = "red"
+    //             } else {
+    //                 document.getElementById("username_id").innerText = "可以注册"
+    //                 document.getElementById("username_id").style.color = "green"
+    //             }
+    //         }
+    //     }
+    // }
+</script>
 </html>
