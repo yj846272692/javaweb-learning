@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="comprehensive-exercise:war exploded" />
+      <artifact name="06-filter-listener:war exploded" />
+      <artifact name="book-online:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,36 +11,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b9440d-c93c-46c5-990c-c02e2d93993d" name="Changes" comment="02-request模块">
-      <change afterPath="$PROJECT_DIR$/05-ajax/05-ajax.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/src/main/java/com/yj/web/ajax/servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/src/main/java/com/yj/web/ajax/servlet/AjaxServlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/src/main/webapp/ajax-demo1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/src/main/webapp/ajax-demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-ajax/src/main/webapp/json-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/java/com/yj/web/exercise/web/CheckUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/java/com/yj/web/exercise/web/NewBrandServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/java/com/yj/web/exercise/web/ServletAllServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/webapp/addBrand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/webapp/brand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/webapp/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/06-filter-listener.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/filter/CharacterFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/filter/FilterDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/filter/FilterDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/filter/SensitiveWordsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/listener/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/servlet/SignServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/java/com/yj/web/servlet/WordsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/resources/敏感词汇.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/webapp/page/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/webapp/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/webapp/users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-filter-listener/src/main/webapp/words.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/brand-case.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/pojo/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/service/Impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/util/SqlSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/web/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/web/BrandServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/java/com/yj/web/brand/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/resources/com.yj.web.brand.mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/css/element-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/js/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-case/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/servlet/LoginServlet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/servlet/LoginServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/servlet/ParamServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/servlet/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/yj/web/quickstart/servlet/UploadServlet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/form1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/form2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/page1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/page2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/page3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/page4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/url.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-response/03-response.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/03-response.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-response/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-response/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comprehensive-exercise/comprehensive-exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/comprehensive-exercise/comprehensive-exercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comprehensive-exercise/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comprehensive-exercise/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comprehensive-exercise/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/comprehensive-exercise/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/quickstart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/quickstart.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +85,12 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -112,37 +146,40 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="ignore.preview.features.used" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/comprehensive-exercise/src/main/webapp/images" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/brand-case" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\21级校企合作\Work\java-web-learning\brand-case\src\main\java\com\yj\web\brand" />
+      <recent name="D:\21级校企合作\Work\java-web-learning\brand-case\src\main" />
+      <recent name="D:\21级校企合作\Work\java-web-learning\brand-case\src\main\resources" />
+      <recent name="D:\21级校企合作\Work\java-web-learning\06-filter-listener\src\main\webapp\page" />
       <recent name="D:\21级校企合作\Work\java-web-learning\comprehensive-exercise\src\main\webapp\images" />
-      <recent name="D:\21级校企合作\Work\java-web-learning\05-ajax\src\main\webapp" />
-      <recent name="D:\21级校企合作\Work\java-web-learning\comprehensive-exercise\src\main\java\com\yj\web\exercise\web" />
-      <recent name="D:\21级校企合作\Work\java-web-learning\04-cookie-session\src\main\java\com\yj\web\servlet" />
-      <recent name="D:\21级校企合作\Work\java-web-learning\04-cookie-session\src\main\java\com\yj\web\cookiesession" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\21级校企合作\Work\java-web-learning\brand-case\src\main\resources\com.yj.web.brand.mapper" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.yj.web.exercise.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yj.web.filter" />
       <recent name="com.yj.web.ajax.servlet" />
       <recent name="com.yj.web.exercise.web" />
       <recent name="com.yj.web.servlet.session" />
       <recent name="com.yj.web.servlet" />
-      <recent name="com.yj.response.servletcontext" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.16">
@@ -226,16 +263,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 10.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.16" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 10.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.16" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="quickstart:war exploded">
+        <artifact name="brand-case:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="9c6c1c28-8d9f-4ab3-a3e0-09d81c3c9d14" />
+        <option name="BASE_DIRECTORY_NAME" value="7d3e5e73-be4e-4e49-882e-00bbe477ad73" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -243,10 +281,10 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54547" />
+        <option name="DEBUG_PORT" value="59498" />
       </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="54548" />
+        <option name="DEBUG_PORT" value="59499" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -340,9 +378,6 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="book-online:war exploded" />
-        </option>
       </method>
     </configuration>
     <list>
@@ -384,7 +419,17 @@
       <workItem from="1646189652763" duration="2173000" />
       <workItem from="1646191867602" duration="3185000" />
       <workItem from="1646217390288" duration="2197000" />
-      <workItem from="1646290789072" duration="2560000" />
+      <workItem from="1646290789072" duration="7257000" />
+      <workItem from="1646298994294" duration="2636000" />
+      <workItem from="1646351994297" duration="3429000" />
+      <workItem from="1646356575819" duration="3208000" />
+      <workItem from="1646371440130" duration="7585000" />
+      <workItem from="1646389270989" duration="3496000" />
+      <workItem from="1646395576713" duration="378000" />
+      <workItem from="1646395989254" duration="683000" />
+      <workItem from="1646396730217" duration="2862000" />
+      <workItem from="1646399661934" duration="1402000" />
+      <workItem from="1646401141721" duration="7016000" />
     </task>
     <task id="LOCAL-00001" summary="02-request模块">
       <created>1645881179996</created>
@@ -417,5 +462,9 @@
     </ignored-roots>
     <MESSAGE value="02-request模块" />
     <option name="LAST_COMMIT_MESSAGE" value="02-request模块" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

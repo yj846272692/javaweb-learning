@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yj.web</groupId>
-    <artifactId>quickstart</artifactId>
+    <artifactId>filterlistener</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>quickstart</name>
+    <name>06-filter-listener</name>
     <packaging>war</packaging>
 
     <properties>
@@ -36,12 +36,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--fastjson-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.62</version>
-        </dependency>
     </dependencies>
 
     <build>
@@ -50,14 +44,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>10</source>
-                    <target>10</target>
-                </configuration>
             </plugin>
         </plugins>
     </build>
